@@ -1,13 +1,14 @@
 import React from "react";
 import { Viewlist } from "./Viewlist";
 import { Link } from "react-router-dom";
+import { FaStar } from "react-icons/fa";
 
 export const Card = () => {
   return (
     <>
       <div className="card">
         <div className="desc">
-          <h1 className="heading">Masala Muglai</h1>
+          <h1 className="heading">Masala Muglai <small id='badge'>&nbsp;4.2&nbsp;<FaStar  /></small></h1>
           <div id="kitchen">
             <span className="material-icons md-36">kitchen</span>
             <span className="material-icons md-36">kitchen</span>

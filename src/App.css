@@ -98,12 +98,11 @@ li{
   overflow-x: scroll;
   display: flex;
   margin: 11px 55px;
-  /* justify-content: space-evenly; */
 }
 li{
   margin: 5px 0;
 }
-img{
+#pic{
   height: 110px;
   width: 120px;
   border-radius: 50%;
@@ -338,18 +337,6 @@ h6{
   margin:0 15px;
 }
 
-.para {
-  color: grey;
-}
-.herbs {
-  float: right;
-}
-#hr {
-  margin: 5vh;
-}
-#two {
-  color: grey;
-}
 
 /* @media only screen and (max-width:600px) {
   .img-desc{
@@ -361,8 +348,84 @@ h6{
 } */
 
 
+/* 2nd page */
 
-
+.para {
+  color: grey;
+  font-size: xx-large;
+  font-family: 'Anton', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Dosis', sans-serif;
+font-family: 'Fira Sans Condensed', sans-serif;
+font-family: 'Rubik', sans-serif;
+}
+.herbs {
+  float: right;
+  background-position: right center;
+  width: fit-content;
+}
+#hr {
+  margin: 5vh;
+}
+#clcks{
+  color: orange;
+}
+#two {
+  color: grey;
+  font-family: 'Anton', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Dosis', sans-serif;
+font-family: 'Fira Sans Condensed', sans-serif;
+font-family: 'Rubik', sans-serif;
+}
+.dropdown{
+  margin: 0px 0px 0px 75px;
+}
+.main{
+  padding-left: 5vh;
+  margin: 8vh;
+}
+#drp{
+  margin: 3.5vh 0;
+  padding: 1.5vh;
+  font-size: xx-large;
+}
+#ref{
+  width: 25vh;
+  height: 38vh;
+  border-radius: 12px;
+  display: inline-flex;
+  margin: 5vh 2vh;
+}
+#vegy{
+  font-size: 25px;
+  font-family: 'Anton', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Dosis', sans-serif;
+font-family: 'Fira Sans Condensed', sans-serif;
+font-family: 'Rubik', sans-serif;
+}
+#spice{
+  font-size: 25px;
+  font-family: 'Anton', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Dosis', sans-serif;
+font-family: 'Fira Sans Condensed', sans-serif;
+font-family: 'Rubik', sans-serif;
+}
+#badge{
+  background-color: green;
+  color: white;
+  border-radius: 2px;
+  width: 45px;
+  height: 25px;
+}
+.star{
+  display: flex;
+}
+small{
+  margin: 11px;
+}
 
 
 
