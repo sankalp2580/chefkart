@@ -12,9 +12,9 @@ export const Card = () => {
             <span className="material-icons md-36">kitchen</span>
             <span className="material-icons md-36">kitchen</span>
             <span id="bar-line"></span>
-            <h4 >
+            <h4>
               Ingrediants
-              <Link to="/ingrediants" >
+              <Link to="/ingrediants" style={{textDecoration:"none"}} >
                 <Viewlist />
               </Link>
             </h4>

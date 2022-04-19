@@ -97,8 +97,7 @@ li{
   overflow: hidden;
   overflow-x: scroll;
   display: flex;
-  margin: 11px 50px;
-  padding: 30px;
+  margin: 11px 55px;
   /* justify-content: space-evenly; */
 }
 li{
