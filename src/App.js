@@ -1,37 +1,22 @@
+import React from "react";
 import './App.css';
-import { Header } from './components/Header';
-import { Current } from './components/Current';
-import { Nav } from './components/Nav';
-import { Dishes } from './components/Dishes';
-import { Dropdown } from './components/Dropdown';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import { Card } from './components/Card';
-import { Footer } from './components/Footer';
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import { Ingrediants } from "./components/Ingrediants";
 
 function App() {
+ 
   return (
-    <>
-    <div className="App">
-     <div className='fixed'>
-     <Header />
-      <Current />
-      <br/>
-      <Nav />
-      <Dishes />
-     </div>
-      <hr/>
-      <Dropdown />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Footer />
-    </div>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}/>
+          <Route index element={<Home />} />
+          <Route path="/ingrediants" element={<Ingrediants />} /> 
+      </Routes>
+    </BrowserRouter>
   );
 }
+
 
 export default App;
