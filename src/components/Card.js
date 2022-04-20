@@ -8,7 +8,10 @@ export const Card = () => {
     <>
       <div className="card">
         <div className="desc">
-          <h1 className="heading">Masala Muglai <small id='badge'>&nbsp;4.2&nbsp;<FaStar  /></small></h1>
+         <div className="star1">
+         <h1 className="heading">Masala Muglai</h1>
+          <small id='badge1'>&nbsp;4.2&nbsp;<FaStar  /></small>
+         </div>
           <div id="kitchen">
             <span className="material-icons md-36">kitchen</span>
             <span className="material-icons md-36">kitchen</span>

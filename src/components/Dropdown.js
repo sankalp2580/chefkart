@@ -5,7 +5,7 @@ export const Dropdown = () => {
     <>
 <div id='drp-menu'>
 <div className="dropdown">
-  <button className="btn btn-secondary dropdown-toggle" type="button" id='drp'>
+  <button className="btn btn-secondary dropdown-toggle" type="button" id='drp1'>
     Recommended
   </button>
     <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">

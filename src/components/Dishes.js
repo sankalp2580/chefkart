@@ -3,6 +3,7 @@ import React from 'react'
 export const Dishes = () => {
   return (
     <>
+    <div className='stories'>
     <h1>Popular Dishes</h1>                     
 <ul className='round'>
     <li className='circle'>
@@ -54,6 +55,7 @@ export const Dishes = () => {
         </div>
     </li>
 </ul>
+    </div>
     </>
   )
 }

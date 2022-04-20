@@ -191,7 +191,16 @@ li{
   padding: 2.5px;
   opacity: 0.68;
 }
+.star1{
+  display: flex;
+}
 #drp{
+  margin: 5px 90px;
+  font-size: x-large;
+  border: none;
+  cursor: pointer;
+}
+#drp1{
   margin: 5px 90px;
   font-size: x-large;
   border: none;
@@ -199,11 +208,12 @@ li{
 }
 #menu{
   float: right;
-  margin: -55px 100px;
+  margin: -55px 140px;
   font-size: larger;
   width: 110px;
   border-radius: 5px;
   border: none;
+  position: relative;
 }
 #drp-menu{
   margin: 20px 0;
@@ -219,7 +229,7 @@ li{
   border-radius: 22px;
 }
 .text{
-  margin: 2px 90px;
+  margin: -25px 90px;
   color: gray;
   position: relative;
 }
@@ -338,14 +348,6 @@ h6{
 }
 
 
-/* @media only screen and (max-width:600px) {
-  .img-desc{
-    width: 30%;
-  }
-  .desc{
-    width: 70%;
-  }
-} */
 
 
 /* 2nd page */
@@ -359,13 +361,8 @@ font-family: 'Dosis', sans-serif;
 font-family: 'Fira Sans Condensed', sans-serif;
 font-family: 'Rubik', sans-serif;
 }
-.herbs {
-  float: right;
-  background-position: right center;
-  width: fit-content;
-}
 #hr {
-  margin: 5vh;
+  margin: 4vh 4vh 8vh 2vh;
 }
 #clcks{
   color: orange;
@@ -379,11 +376,17 @@ font-family: 'Fira Sans Condensed', sans-serif;
 font-family: 'Rubik', sans-serif;
 }
 .dropdown{
-  margin: 0px 0px 0px 75px;
+  margin: 0 0 0 2vh;
+  font-size: 25px;
+font-family: 'Anton', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Dosis', sans-serif;
+font-family: 'Fira Sans Condensed', sans-serif;
+font-family: 'Rubik', sans-serif;
 }
 .main{
   padding-left: 5vh;
-  margin: 8vh;
+  margin: 2vh;
 }
 #drp{
   margin: 3.5vh 0;
@@ -397,21 +400,29 @@ font-family: 'Rubik', sans-serif;
   display: inline-flex;
   margin: 5vh 2vh;
 }
-#vegy{
-  font-size: 25px;
-  font-family: 'Anton', sans-serif;
+.indg{
+  margin: 4vh 4vh 8vh 2vh;
+}
+.vegy{
+font-size: 25px;
+font-family: 'Anton', sans-serif;
 font-family: 'Bebas Neue', cursive;
 font-family: 'Dosis', sans-serif;
 font-family: 'Fira Sans Condensed', sans-serif;
 font-family: 'Rubik', sans-serif;
 }
-#spice{
-  font-size: 25px;
-  font-family: 'Anton', sans-serif;
+.spices{
+font-size: 25px;
+font-family: 'Anton', sans-serif;
 font-family: 'Bebas Neue', cursive;
 font-family: 'Dosis', sans-serif;
 font-family: 'Fira Sans Condensed', sans-serif;
 font-family: 'Rubik', sans-serif;
+}
+.float{
+  display: flex;
+  float: right;
+  margin: 0 25vh;
 }
 #badge{
   background-color: green;
@@ -419,6 +430,18 @@ font-family: 'Rubik', sans-serif;
   border-radius: 2px;
   width: 45px;
   height: 25px;
+  margin: 11px 25px;
+}
+#badge1{
+  background-color: green;
+  color: white;
+  border-radius: 2px;
+  width: 45px;
+  height: 25px;
+  margin: 31px -70px;
+}
+.aplnc{
+  margin: 4vh 4vh 8vh 2vh;
 }
 .star{
   display: flex;
@@ -426,7 +449,19 @@ font-family: 'Rubik', sans-serif;
 small{
   margin: 11px;
 }
-
+#herby-img{
+  position: absolute;
+}
+.herbs {
+  position: relative;
+  margin: 6vh;
+  float: right;
+  border: 2px solid orange;
+  border-radius: 8px;
+  background-color:#FFF;
+  padding:2vh;
+  box-shadow: 10px 10px 10px #000000;
+}
 
 
 
